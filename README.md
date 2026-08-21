@@ -1,33 +1,53 @@
-# eddacraft
+<p align="center">
+  <img src="assets/logos/eddacraft-white-on-void.svg" alt="eddacraft" width="96" />
+</p>
 
-Tools for governing AI-assisted work.
+<h1 align="center">eddacraft</h1>
+
+<p align="center">
+  technology that makes AI-assisted work independently trustworthy
+</p>
 
 ---
 
 ## Products
 
-### [Anvil](https://github.com/EddaCraft/anvil)
-Deterministic governance for AI-assisted software development. Validates code, infrastructure, and behaviour against defined policies in real time — ensuring AI-generated outputs remain compliant, consistent, and production-ready.
+### [anvil](https://github.com/eddacraft/anvil)
 
-→ [Join the waitlist](https://eddacraft.ai)
+The independent Decision Integrity layer for AI-assisted software. anvil
+gives agents a graph of the codebase, then gates their edits against
+repo-versioned policy **before they land** — local, deterministic, and
+agent-agnostic.
+
+Closed beta. Invitation required.
+
+→ [eddacraft.ai](https://eddacraft.ai) · [docs](https://docs.eddacraft.ai/anvil/overview) · [install](https://install.eddacraft.ai)
 
 ---
 
-## Open Source
+## Open source
 
-### [eddacraft-tui](https://github.com/EddaCraft/eddacraft-tui)
-Shared Ratatui component library for the EddaCraft product family. A consistent set of terminal UI building blocks — themed widgets, keyboard handling, shell chrome, and surface abstraction.
+### [kindling](https://github.com/eddacraft/kindling)
 
-### [anvil-plan-spec](https://github.com/EddaCraft/anvil-plan-spec)
-Lightweight open specification for planning and task authorisation in AI-assisted development. Apache 2.0.
+Local memory for AI-assisted development. Captures tool calls, edits,
+commands, and decisions in SQLite on your machine. Deterministic search,
+no cloud. Apache 2.0.
 
-### [kindling](https://github.com/EddaCraft/kindling)
-Small, composable memory primitives for agentic workflows. Apache 2.0.
+### [anvil-plan-spec](https://github.com/eddacraft/anvil-plan-spec)
+
+Open, markdown-native planning spec: plan the outcome, authorise the
+work, let the implementation adapt. Apache 2.0.
+
+### [eddacraft-tui](https://github.com/eddacraft/eddacraft-tui)
+
+Themed Ratatui component library — widgets, streaming text layout, and
+JSON-driven terminal UI. Apache 2.0.
 
 ---
 
 ## About
 
-eddacraft is an independent product entity building governance infrastructure for AI-assisted software teams.
+eddacraft, inc. builds infrastructure so organisations can trust
+AI-assisted work. anvil is the first product.
 
-[eddacraft.ai](https://eddacraft.ai) · [anvil waitlist](https://eddacraft.ai#waitlist)
+[eddacraft.ai](https://eddacraft.ai) · [docs.eddacraft.ai](https://docs.eddacraft.ai) · [hello@eddacraft.ai](mailto:hello@eddacraft.ai)
