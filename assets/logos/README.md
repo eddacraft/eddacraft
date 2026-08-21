@@ -1,20 +1,24 @@
 # Public brandmarks
 
-Hotlinkable copies of the eddacraft / anvil marks. Use these for
-unauthenticated surfaces (the GitHub org page, Cloudflare Access login,
-external docs). The design source of truth remains the private
-`eddacraft/brand-and-design` repo — copy out, do not fork here.
+Hotlinkable copies of the official marks from private
+`eddacraft/brand-and-design` (`logos/svg/`). Copy out; do not fork.
 
-| File | Use |
-| --- | --- |
-| `anvil-brandmark-white.svg` | White anvil mark, transparent. Dark backgrounds. |
-| `eddacraft-brandmark-white.svg` | White eddacraft mark, transparent. Dark backgrounds. |
-| `eddacraft-white-on-void.svg` | White eddacraft mark on void. Mixed / light backgrounds. |
+Brand hierarchy (`BRAND_README.md` §2):
 
-Default-branch URLs:
+- **eddacraft** — parent company. Org chrome, GitHub org page, Access login avatar.
+- **anvil** — flagship product. Product surfaces, the anvil Access *application*.
+
+On void / dark backgrounds use the `*-white` brandmark. On mixed or light
+backgrounds use `eddacraft-white-on-void.svg`.
+
+| File | Entity | Use |
+| --- | --- | --- |
+| `eddacraft-brandmark-white.svg` | company | Dark backgrounds. Cloudflare Access org logo. |
+| `eddacraft-white-on-void.svg` | company | Mixed / light backgrounds. GitHub org page. |
+| `anvil-brandmark-white.svg` | product | Dark backgrounds. anvil app / product UI. |
 
 ```
-https://raw.githubusercontent.com/eddacraft/eddacraft/main/assets/logos/anvil-brandmark-white.svg
 https://raw.githubusercontent.com/eddacraft/eddacraft/main/assets/logos/eddacraft-brandmark-white.svg
 https://raw.githubusercontent.com/eddacraft/eddacraft/main/assets/logos/eddacraft-white-on-void.svg
+https://raw.githubusercontent.com/eddacraft/eddacraft/main/assets/logos/anvil-brandmark-white.svg
 ```
